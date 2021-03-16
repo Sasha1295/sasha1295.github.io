@@ -509,12 +509,8 @@ ul li a:hover {
 
 
 @media screen and (max-width: 1050px) {
-  body {
-    margin: 0;
-  }
-
-  header {
-    padding: 0;
+header {
+    padding: 3% 15%;
   }
 
   .logo {
