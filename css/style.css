@@ -651,7 +651,7 @@ ul li a:hover {
 
   .link {
     top: 45%;
-    left: 10%;
+    left: 5%;
   }
 
   .footer-link { 
@@ -678,6 +678,6 @@ ul li a:hover {
 
   .copyright {
     font-size: 1rem;
-    left: 35%;
+    left: 25%;
   }
 }
