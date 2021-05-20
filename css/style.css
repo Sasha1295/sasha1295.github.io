@@ -423,7 +423,7 @@ ul li a:hover {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
 }
 
 .footer-social-icons ul li {
@@ -657,6 +657,7 @@ ul li a:hover {
   .footer-social-icons ul {
     top: 70%;
     left: 50%;
+    transform: translateX(-50%);  
   }
 
   .footer-social-icons ul li a {
