@@ -319,6 +319,15 @@ color:#1b262c ! important;
 	background: #f8d467;
 }
 
+.btn4 {
+	color: #ffffff;
+    background: #214b33
+}
+
+.btn4:hover {
+	background: #0d301c;
+}
+
 .btngmail {
 	background: #db4a39;
 }
@@ -345,6 +354,13 @@ color:#1b262c ! important;
 	width: 100%;
   height: auto;
 	background: #f8c687;
+}
+
+
+.project4 {
+  width: 100%;
+  height: auto;
+  background: #21364b; 
 }
 
 .contact-me {
