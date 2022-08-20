@@ -1,63 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html class="no-js" lang="en">
 <head>
- <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=yes">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    
-    <script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<!-- Custom Theme files -->
-	
-	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital@1&display=swap" rel="stylesheet">
-	<link href="css/style.css" rel='stylesheet' type='text/css' />	
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-		   <script type="text/javascript" src="js/easing.js"></script>
-			<script type="text/javascript">
-				jQuery(document).ready(function($) {
-					$(".scroll").click(function(event){		
-						event.preventDefault();
-						$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-					});
-				});
-			</script>
-			<script type="text/javascript">
-			$(document).ready(function() {
-					
-			$().UItoTop({ easingType: 'easeOutQuart' });
-	});
-	</script>
-	 <script src="js/jquery.chocolat.js"></script>
-			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all" />
-			<!--light-box-files -->
-			<script type="text/javascript">
-			$(function() {
-				$('#example1 a').Chocolat();
-			});
-			</script>
-			<script type="text/javascript">
-			$(function() {
-				$('#portfolio a').Chocolat();
-			});
-			</script>
-			<!-- animation-effect -->
-	<link href="css/animate.min.css" rel="stylesheet"> 
-	<script src="js/wow.min.js"></script>
-	<script>
-	 new WOW().init();
-	</script>
-	<!-- //animation-effect -->
 
-    <link rel="icon" href="img/logo.png">
-
+    <meta charset="UTF-8">
     <title>Webdesigner Sasha Minakova</title>
     <meta name="description" content="Ik ben Webdesigner">
     <meta name="keywords" content="Sasha Minakova, web, design, webdesign, webdesigner">
@@ -68,129 +13,401 @@
     <meta property="og:title" content="Webdesigner Sasha Minakova">
     <meta property="og:description" content="Ik ben Webdesigner">
     <meta property="og:type" content="website">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PVG0WG50JM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  gtag('config', 'G-PVG0WG50JM');
-</script>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="sm.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="sm.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="sm.jpg">
+
 </head>
 
-<body>
+<body id="top">
 
-<header>
-   <div class="banner w3l-1">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			
-			 <div class="container">
-			   <div class="navbar-header wow fadeInLeft animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-			<!--toggle button-->
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-			   </div>
+    <header class="s-header">
 
-              <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                  <li><a href="index.html" class="active">Home</a></li>
-                  <li><a href="html/contact.html">Contact</a></li>
-                   <li><a href="html/portfolio.html">Mijn Portfolio</a></li>
-                    <li><a href="https://drive.google.com/file/d/1Xwde5ds3tx1sk5EFHJvO_Unp3fuy8vlE/view?usp=sharing">Mijn Resume(CV)</a></li>
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll"  href="#intro">Home</a></li>
+                <li><a class="smoothscroll"  href="#about">Resume (CV)</a></li>
+                <li><a class="smoothscroll"  href="#opleiding">Opleiding</a></li>
+                <li><a class="smoothscroll"  href="#works">Portfolio</a></li>
+                <li><a class="smoothscroll"  href="#contact">Contact</a></li>
+                 <li><a href="https://www.linkedin.com/in/sasha-minakova-406112215/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                 <li><a href="https://github.com/Sasha1295" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
                 </ul>
+            </nav>
+    
+            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+    
+        </header> 
+    
+        <section id="intro" class="s-intro target-section"data-parallax="scroll" data-image-src="images/hero-bg.jpg" >
+    
+        <div class="row intro-content">
 
-				<div class="social wow fadeInRight animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-					<ul>
-						<li><a href="https://www.linkedin.com/in/sasha-minakova-406112215/" class="in"> </a></li>
-						<li><a href="https://github.com/Sasha1295" class="github">  </a></li>
-					</ul>		
-				</div>
-
-               <div class="clearfix"></div>
-              </div> 
+            <div class="column large-9 mob-full intro-text">
+                <h3>Hello!</h3>
+                <h1>
+                    Mijn naam is Sasha.<br>
+                    Welkom op mijn Webdesign portfolio website. 
+                </h1>
             </div>
-          </nav>
-		  </div>
-</header>
 
-<div class="top-container">
-	<div class="Intro">
-		 <h1>Mijn naam is Sasha</h1>
-		 <p id="p1">Ik ben webdesigner.</p> 
-	 </div>
-	 <img id="mountain" src="img/webdesign.jpg" alt="webdesign-img">
- </div>
-	
- 
- <div class="middle-container">
-	 <div class="profile">
-		<img class="midlogo" src="img/logo.png" alt="profilepic">
-		 <h2>Hallo!</h2>
-		 <p class="p2">Mijn naam is Sasha Minakova. Webdesigner. Ik woon in Nederland. Ik werk hard en heb een passie voor mijn werk.</p>
-	   </div>
- 
-	   <hr>
- 
-	   <div class="skills">
-		 <h2>Mijn Skills</h2>
+            <div class="intro-scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Klik
+                </a>
+            </div>
 
-         <div>
-			 <h3>Front End</h3>
-			 <img title="HTML5" class="skill_img" src="img/html.png" alt="HTML5">
-			 <img title="CSS" class="skill_img" src="img/css.png" alt="CSS3">
-			 <img title="Javascript" class="skill_img" src="img/javascript.png" alt="Javascript">
-			 <br>
-			 <br>
-			 <img title="jQuery" class="skill_img" src="img/jquery.png" alt="jQuery">
-			 <img title="Animate-css" class="skill_img" src="img/animate-css.png" alt="Animate-css">
-			 <img title="Bootstrap" class="skill_img" src="img/bootstrap.png" alt="Bootstrap">
-		 </div>
+            <div class="intro-grid"></div>
+            <div class="intro-pic"></div>
+
+        </div> 
+
+    </section> 
  
-		 <div>	
-			 <h3>Adobe</h3>
-			 <img title="Photoshop" class="skill_img" src="img/photoshop.png" alt="Photoshop">
-			 <img title="Illustrator" class="skill_img" src="img/illustrator.png" alt="Illustrator">
-			 <img title="Indesign" class="skill_img" src="img/indesign.png" alt="Indesign">
-		 </div>
- 
-		 <div>
-			 <h3>Wordpress</h3>	
-			 <img title="Wordpress" class="skill_img" src="img/wordpress.png" alt="Wordpress">
-		 </div>
-	   </div>
-    	 
-		  <hr>
+    <section id="about" class="s-about target-section">
 
-		  <h2>Mijn Portfolio</h2>
-		<p class="p2">Om mijn nieuwste werken te zien, klik op de onderstaande knop.</p>
-         <a class="btn" href="html/portfolio.html">Mijn Portfolio</a>
+        <div class="about-me">
 
-         <hr>
-	 
-         <div id="contact" class="contact-me">
-            <h2>Contact-knop</h2>
-            <h3>Mijn e-mail.</h3>
-        <p class="p2">Druk op de knop</p>
-        <a class="btn" href="mailto:sasha.minakova1275@gmail.com">Bericht mij</a>
-      </div>
-    </div> 
-      
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading section-heading--centerbottom">Meer over mij / Mijn Skills</h2>
+                </div>
+            </div>
 
- <footer id="f">
-     <small class="copyright">
-         <p class="copyright">&copy;  2022 // <a href="#" class="f-link">Webdesigner Sasha Minakova</a></p> 
-         </small> 
- </footer>
- 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                  Hallo! Mijn naam is Sasha Minakova.<br>Ik ben Webdesigner.
+                    </p>
+                    <p>Ik ontwerp websites op maat om ervoor te zorgen dat het ontwerp zo goed mogelijk aansluit op de wensen en behoeften van mijn klanten.</p>
+                    <p>Als webdesigner werk ik niet alleen aan hoe iets eruitziet, maar ook hoe het werkt.</p>
+                    <p>Ik vind het belangrijk dat een website doeltreffend, aantrekkelijk en gebruikersvriendelijk is en ook technisch goed in elkaar zit.</p>
+                    <p>In de buurt kun je mijn vaardigheden zien.</p>
+                    <p>Om meer over mij te weten - klik op onderstaande knop om mijn CV te bekijken.</p>
+                  <br>
+                <br>
+                     <div class="column large-full about-me__text">
+    
+                    <p>Front End</p>
+                    <img title="HTML5" class="skill_img" src="img/html.png" alt="HTML5">
+                    <img title="CSS" class="skill_img" src="img/css.png" alt="CSS3">
+                    <img title="Javascript" class="skill_img" src="img/javascript.png" alt="Javascript">
+                
+                   
+                    <img title="jQuery" class="skill_img" src="img/jquery.png" alt="jQuery">
+                    <img title="Animate-css" class="skill_img" src="img/animate-css.png" alt="Animate-css">
+                    <img title="Bootstrap" class="skill_img" src="img/bootstrap.png" alt="Bootstrap">
+                </div>
+                <hr style="width:100%;text-align:left;margin-left:0">
+          
+                <div class="column large-full">	
+                    <p>Adobe</p>
+                    <img title="Photoshop" class="skill_img" src="img/photoshop.png" alt="Photoshop">
+                    <img title="Illustrator" class="skill_img" src="img/illustrator.png" alt="Illustrator">
+                    <img title="Indesign" class="skill_img" src="img/indesign.png" alt="Indesign">
+                </div>
+                <hr style="width:100%;text-align:left;margin-left:0">
+         
+                <div class="col-six tab-full center">
+                  <img title="Wordpress" class="skill_img" src="img/wordpress.png" alt="Wordpress">
+                   <img title="Figma" class="skill_img" src="img/figma.png" alt="Figma">
+                    </div>
+                </div>
+            </div>
+            <br>
+                <div class="column text-center" data-aos="fade-up">
+                    <a href="https://drive.google.com/file/d/1AlD25jDBTfIUb2EUpkFIudadun5IB3G2/view?usp=sharing" target="_blank" class="btn btn--primary width">Download CV</a>
+                </div>
+            </div>
+           </div> 
+          </div> 
+    </section>
 
+        <section id="opleiding" class="s-about target-section">
+        <div class="about-experience">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading section-heading--centerbottom">Mijn Opleiding</h2>
+                    <p class="section-desc">Professionele cursus / MBO</p>
+                </div>
+            </div>
+
+            <div class="row about-experience__timeline">
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--education"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <h3 class="item-title">NHA (Professionele cursus)</h3>
+                                <h5>Webdesign</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Na het bestuderen van deze cursus kan ik werken met : </br>- HTML;</br>- CSS;</br>- JavaScript;</br>- jQuery;</br>- Bootstrap;</br>- Animate CSS.</br>Met deze vaardigheden ben ik in staat om mijn eigen professionele responsive website te ontwikkelen die soepel draait en een vlotte gebruikerservaring biedt.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <h3 class="item-title">NHBO (Prof / cursus)</h3>
+                                <h5>Photoshop</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                Na het bestuderen van deze cursus ik:</br>- Alle tools in Photoshop geleerd.</br>- Professionele fotobewerking in Photoshop.</br>- Mijn kennis uitgebreid om als professionele webdesigner aan de slag te gaan.</p>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <div class="timeline">
+
+                        <div class="timeline__icon-wrap">
+                            <span class="timeline__icon timeline__icon--education"></span>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <h3 class="item-title">UDEMY (Prof / cursussen)</h3>
+                                <h5>Illustrator, Wordpress, Indesign, Figma</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Na het bestuderen van :</br>- Illustrator ik heb een beroepsvaardigheid verworven die ik zou kunnen gebruiken als webdesigner.</br>- WordPress ik kan maken bouw prachtige, functionele websites zonder programmeerervaring.</br>- Indesign maak ik een professioneel standaard printontwerp.</br>- Figma kan ik werken met gebruikersinterface en modern webdesign: prachtige responsive websites maken.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <h3 class="item-title">Curio College(MBO) - Breda</h3>
+                                <h5>Horeca</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <p>Ik heb 2 jaar de opleiding van een Horeca in de richting van een kok gestudeerd. Dit was mijn eerste opleiding. Tijdens mijn studie en daarna werk bij de restauranten en hotel heb ik mijn communicatie met verschillende mensen verbeteren.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              </div> 
+           </section> 
+
+    <section id="works" class="s-works target-section">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Portfolio</h2>
+                <p class="section-desc">
+                    Hier is een selectie van recent werk. Ik heb deze projecten gedaan om mijn vaardigheden aan te scherpen.
+                </p>
+            </div>
+        </div> 
+
+        <div class="masonry-wrap">
+
+            <div class="masonry">
+                <div class="grid-sizer"></div>
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/am.png" class="thumb-link" title="Aqua Moana Hotel" data-size="1920x4423">
+                                <img src="images/portfolio/am.png">
+                                
+                            </a>    
+                            <a href="http://just-another-site.getenjoyment.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+    
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Aqua Moana Hotel
+                            </h4>
+                        </div>
+                      <div class="item-folio__caption">
+                            <p>Wordpress site</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/ict.png" class="thumb-link" title="Kerst online shop" data-size="1920x3056">
+                                <img src="images/portfolio/ict.png">
+                            </a>
+                            <a href="https://sasha1295.github.io/xmas/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                It's Christmas Time!
+                            </h4>
+                         </div>
+                        <div class="item-folio__caption">
+                            <p>Kerst online shop</p>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/stl.png" class="thumb-link" title="Wordpress site" data-size="1920x4423">
+                                <img src="images/portfolio/stl.png">
+                            </a>
+                            <a href="https://massagestudiolotus.wordpress.com/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Massage Studio Lotus
+                            </h4>
+                          </div>
+                        <div class="item-folio__caption">
+                            <p>Wordpress site</p>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                            
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/main.png" class="thumb-link" title="Mijn Portfolio website" data-size="1920x7078">
+                                <img src="images/portfolio/main.png">
+                            </a>
+                            <a href="" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Webdesigner Sasha Minakova
+                            </h4>
+                            </div>
+                        <div class="item-folio__caption">
+                            <p>Mijn Portfolio website</p>
+                        </div>
+                    </div>
+                </div> 
+
+            </div> 
+        </div> 
+    </section> 
+
+    <section id="contact" class="s-contact ss-dark target-section">
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Contact</h2>
+                <p class="section-desc">Neem contact met mij.</p>
+            </div>
+        </div>
+        
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="column large-full">
+                <p class="contact-email">
+                    <a href="mailto:sasha.minakova1275@gmail.com" target="_blank" class="btn btn--primary width">Gmail</a>
+                <a href="https://www.linkedin.com/in/sasha-minakova-406112215/" target="_blank" class="btn btn--primary width">Linkedin</a>
+                </p>
+            </div>
+        </div>
+</div>
+</div> 
+ </section> 
+    
+    <footer>
+        <div class="row contact-main" data-aos="fade-up">
+       <div class="column large-full">
+
+                <ul class="footer-social">
+                    <li><a href="https://www.linkedin.com/in/sasha-minakova-406112215/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a></li>
+                    <li><a href="https://github.com/Sasha1295" target="_blank"><i class="fab fa-github" aria-hidden="true"></i><span>Github</span></a></li>
+                </ul>
+             </div>
+        </div>
+    </div>
+  
+            <div class="column large-full ss-copyright">
+                <span>© Webdesigner Sasha Minakova 2022</span> 
+                <span>Design by Sasha Minakova</span>
+            </div>            
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
-</html>
