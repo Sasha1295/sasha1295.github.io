@@ -2815,8 +2815,6 @@ input::-moz-focus-inner {
   background-position: center center;
   background-size: 30%;
   background-image: url(../images/icons/icon-link.svg);
-  -webkit-transform: translate3d(0, 100%, 0);
-  transform: translate3d(0, 100%, 0);
   z-index: 2;
   position: absolute;
   bottom: 0;
