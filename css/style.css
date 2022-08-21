@@ -2150,8 +2150,8 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 19.2rem;
-  padding-bottom: 16.8rem;
+  padding-top: 12rem;
+  padding-bottom: 1rem;
   background-color: #ffffff;
 }
 
@@ -2160,7 +2160,7 @@ input::-moz-focus-inner {
 }
 
 .s-about > [class*="about-"] {
-  margin-bottom: 15.2rem;
+  margin-bottom: 10rem;
 }
 
 .s-about > [class*="about-"]:last-child {
@@ -2327,8 +2327,8 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1200px) {
   .s-about {
-    padding-top: 17.2rem;
-    padding-bottom: 15.6rem;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
   }
 
   .about-experience__timeline .column:first-child {
@@ -2421,7 +2421,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .s-about {
-    padding-top: 16rem;
+    padding-top: 8rem;
   }
 
   .s-about .row {
@@ -2461,7 +2461,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:400px) {
   .s-about > [class*="about-"] {
-    margin-bottom: 14rem;
+    margin-bottom: 5rem;
   }
 
   .about-me__buttons .column:first-child,
@@ -2721,8 +2721,8 @@ input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-  padding-top: 19.2rem;
-  padding-bottom: 16rem;
+  padding-top: 12rem;
+  padding-bottom: 7rem;
   background-color: #ffffff;
 }
 
@@ -2931,7 +2931,7 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:800px) {
   .s-works {
-    padding-top: 16rem;
+    padding-top: 7rem;
   }
 
   .masonry-wrap {
